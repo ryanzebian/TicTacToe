@@ -273,9 +273,9 @@ class AI():
     def CurrentMatchHistory(self):
         return self.__currentMatch
         
-#run for testing
-initBoard(3)
-al = AI('x')
+##run for testing
+#initBoard(3)
+#al = AI('x')
 #al.Turn()
 printGame()
 def move(r,c,pType):
